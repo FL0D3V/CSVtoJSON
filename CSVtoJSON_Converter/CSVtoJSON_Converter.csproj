@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <StartupObject>CSVtoJSON_Converter.Program</StartupObject>
+    <AssemblyName>CSVtoJSON</AssemblyName>
+    <Description>Converts a given csv file to a json file.</Description>
+    <Copyright>2021 © Florian Maier</Copyright>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <Platforms>AnyCPU;x64</Platforms>
+    <Version>1.0.1</Version>
+    <Authors>Florian Maier</Authors>
+    <Company>-</Company>
+    <Product>CSVtoJSON Converter</Product>
+    <PackageReleaseNotes>Fixed bugs.</PackageReleaseNotes>
+    <NeutralLanguage>de</NeutralLanguage>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+</Project>
